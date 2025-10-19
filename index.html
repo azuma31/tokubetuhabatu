@@ -15,24 +15,40 @@
             font-family: 'Segoe UI', 'Yu Gothic', 'Meiryo', sans-serif;
             line-height: 1.7;
             background: #f5f5f5;
-            padding: 40px 20px;
+            padding: 20px 15px;
         }
         
         .container {
             max-width: 800px;
             margin: 0 auto;
             background: white;
-            padding: 40px;
+            padding: 30px 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
         
         h1 {
             color: #333;
-            margin-bottom: 30px;
-            font-size: 2em;
+            margin-bottom: 20px;
+            font-size: 1.8em;
             border-bottom: 3px solid #5a67d8;
             padding-bottom: 15px;
+            word-wrap: break-word;
+        }
+        
+        @media (min-width: 768px) {
+            body {
+                padding: 40px 20px;
+            }
+            
+            .container {
+                padding: 40px;
+            }
+            
+            h1 {
+                font-size: 2em;
+                margin-bottom: 30px;
+            }
         }
         
         .overview {
@@ -102,6 +118,11 @@
             <h3>3. 監視</h3>
             <p>上記の2つの規則の違反がないか確認するために、部長または副部長がその派閥のグループに入ります。</p>
             <p>ただし、あくまで監視目的であるため、積極的にその派閥の活動に参加したりなどは、別でその派閥に所属していない限り行いません。</p>
+        </div>
+        
+        <div class="rule">
+            <h3>4. 密告</h3>
+            <p>上記の制約や回避目的のグループ作成に関する規約の違反の密告が行われた場合、首謀者に懲戒を下します。</p>
         </div>
     </div>
 </body>
